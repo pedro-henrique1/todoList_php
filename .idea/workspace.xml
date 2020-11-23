@@ -11,29 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/ControllerCadastro/Notas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/criacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/database/connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CriarNota.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Criar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/conection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ControllerCadastro/Notas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/criacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/NotesRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/database/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/database/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/CriarNota.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/CriarNota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +85,7 @@
       <recent name="$PROJECT_DIR$/model" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Notas.php">
+  <component name="RunManager" selected="PHP Script.NotesController.php">
     <configuration name="CriarNota.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/page/CriarNota.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -116,7 +100,10 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="Notas.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controller/ControllerCadastro/Notas.php">
+    <configuration name="NotesController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="NotesRepository.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/NotesRepository.php">
       <method v="2" />
     </configuration>
     <configuration name="connection.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/database/connection.php">
@@ -127,14 +114,11 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="criacao.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/criacao.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.criacao.php" />
+        <item itemvalue="PHP Script.NotesRepository.php" />
         <item itemvalue="PHP Script.connection.php" />
-        <item itemvalue="PHP Script.Notas.php" />
+        <item itemvalue="PHP Script.NotesController.php" />
         <item itemvalue="PHP Script.CriarNota.php" />
         <item itemvalue="JavaScript Debug.CriarNota.php" />
       </list>
@@ -153,7 +137,7 @@
       <workItem from="1605983067822" duration="19664000" />
       <workItem from="1606148761739" duration="4000" />
       <workItem from="1606151001691" duration="58000" />
-      <workItem from="1606151079993" duration="4517000" />
+      <workItem from="1606151079993" duration="12113000" />
     </task>
     <servers />
   </component>
@@ -273,5 +257,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1104" y="254" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606156561564" />
+    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606162393570">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606162393570" />
   </component>
 </project>
