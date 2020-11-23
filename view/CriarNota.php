@@ -1,6 +1,6 @@
 <?php
 
-require_once("../controller/ControllerCadastro/Notas.php");
+require_once("../controller/ControllerCadastro/NotesController.php");
 
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ require_once("../controller/ControllerCadastro/Notas.php");
     <title>Criar</title>
 </head>
 <body>
-<form method="post" action="">
+<form method="post" action="../controller/ControllerCadastro/NotesController.php">
     <label>
         <input type="text" name="title"/>
     </label><br>
