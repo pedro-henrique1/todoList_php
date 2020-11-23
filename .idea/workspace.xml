@@ -11,13 +11,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Criar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/to-do list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to-do list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/ControllerCadastro/Notas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/criacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/database/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/CriarNota.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/conection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/conection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Criar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/conection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +53,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="26e79966-f809-450e-a215-da88ed53a5ae" name="localhost" port="5500" />
+      <server host="localhost" id="51e8ffc1-cefd-4d01-aead-d6e1f59138ef" name="localhost (1)" port="4430" />
+      <server host="localhost" id="5d1ca5a9-28ad-4d61-b731-d60bf0c7bf1e" name="localhost (2)" port="4000" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1kYuTakfEK776yxSqNeK2d8jJRW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,9 +71,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,15 +86,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/view" />
+      <recent name="$PROJECT_DIR$/controller/Criar" />
+      <recent name="$PROJECT_DIR$/controller" />
+      <recent name="$PROJECT_DIR$/model" />
+    </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Criar.php">
-    <configuration name="Criar.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/controller/Criar.php">
+  <component name="RunManager" selected="PHP Script.Notas.php">
+    <configuration name="CriarNota.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/page/CriarNota.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/to-do_list/src/page/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="CriarNota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/view/CriarNota.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4" />
@@ -74,18 +116,27 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="conection.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/database/conection.php">
+    <configuration name="Notas.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controller/ControllerCadastro/Notas.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="connection.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/database/connection.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4" />
         </PhpTestInterpreterSettings>
       </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="criacao.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/criacao.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.Criar.php" />
-        <item itemvalue="PHP Script.conection.php" />
+        <item itemvalue="PHP Script.criacao.php" />
+        <item itemvalue="PHP Script.connection.php" />
+        <item itemvalue="PHP Script.Notas.php" />
+        <item itemvalue="PHP Script.CriarNota.php" />
+        <item itemvalue="JavaScript Debug.CriarNota.php" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +149,11 @@
       <option name="presentableId" value="Default" />
       <updated>1605889858997</updated>
       <workItem from="1605889862327" duration="4263000" />
-      <workItem from="1605894507882" duration="1811000" />
+      <workItem from="1605894507882" duration="16342000" />
+      <workItem from="1605983067822" duration="19664000" />
+      <workItem from="1606148761739" duration="4000" />
+      <workItem from="1606151001691" duration="58000" />
+      <workItem from="1606151079993" duration="4517000" />
     </task>
     <servers />
   </component>
@@ -115,35 +170,108 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters" timestamp="1605892871450">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters/0.27.1920.1053@0.27.1920.1053" timestamp="1605892871450" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1605894477516">
+    <state x="1069" y="235" width="732" height="637" key="#Inspections" timestamp="1606157878423">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1605894477516" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1605894477515">
+    <state x="1069" y="235" width="732" height="637" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1606157878423" />
+    <state x="1134" y="378" width="604" height="350" key="#Notifications" timestamp="1606157583387">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1605894477515" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1605894477515">
+    <state x="1134" y="378" width="604" height="350" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1606157583387" />
+    <state x="605" y="177" width="700" height="752" key="#PHP" timestamp="1605900590269">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1605894477515" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1605894477515">
+    <state x="605" y="177" width="700" height="752" key="#PHP/0.27.1920.1053@0.27.1920.1053" timestamp="1605900590269" />
+    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects" timestamp="1605998311955">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1605894477515" />
-    <state x="1114" y="273" width="641" height="561" key="NewPhpClassDialog" timestamp="1605895493762">
+    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1605998311955" />
+    <state x="1196" y="337" width="467" height="432" key="#Web_Browsers" timestamp="1605897066358">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1114" y="273" width="641" height="561" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605895493762" />
-    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog" timestamp="1605890883467">
+    <state x="1196" y="337" width="467" height="432" key="#Web_Browsers/0.27.1920.1053@0.27.1920.1053" timestamp="1605897066358" />
+    <state x="1035" y="215" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606156748223">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605890883467" />
+    <state x="1035" y="215" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606156748223" />
+    <state x="972" y="183" width="926" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605998275089">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="972" y="183" width="926" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605998275089" />
+    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606012371602">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606012371602" />
+    <state width="914" height="343" key="GridCell.Tab.0.bottom" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="914" height="343" key="GridCell.Tab.0.center" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="914" height="343" key="GridCell.Tab.0.left" timestamp="1606020015442">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015442" />
+    <state width="914" height="343" key="GridCell.Tab.0.right" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="914" height="343" key="GridCell.Tab.1.bottom" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="914" height="343" key="GridCell.Tab.1.center" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="914" height="343" key="GridCell.Tab.1.left" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="914" height="343" key="GridCell.Tab.1.right" timestamp="1606020015443">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="914" height="343" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1606156802291">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1606156802291" />
+    <state x="1114" y="273" width="641" height="561" key="NewPhpClassDialog" timestamp="1605984304964">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1114" y="273" width="641" height="561" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605984304964" />
+    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog" timestamp="1605909686255">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605909686255" />
+    <state x="151" y="220" key="SettingsEditor" timestamp="1606151061001">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="151" y="220" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606151061001" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605902782611">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1605902782611" />
+    <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605989043117">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605989043117" />
+    <state x="1151" y="324" width="568" height="459" key="refactoring.ChangeSignatureDialog" timestamp="1605990219746">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1151" y="324" width="568" height="459" key="refactoring.ChangeSignatureDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605990219746" />
+    <state x="1104" y="254" width="672" height="677" key="run.anything.popup" timestamp="1606156561564">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1104" y="254" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606156561564" />
   </component>
 </project>
