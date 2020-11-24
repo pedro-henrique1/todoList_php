@@ -22,8 +22,6 @@
 </div>
 
 <button style="margin: 11ch 0 0 1ch"><a style="text-decoration: none; color: #000"
-          href="CriarNota.php">Adicionar Tarefa</a></button>
-
-
+    href="./CriarNota.php">Adicionar Tarefa</a></button>
 </body>
 </html>

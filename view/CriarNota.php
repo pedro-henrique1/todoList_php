@@ -1,6 +1,7 @@
 <?php
 
-require_once("../controller/ControllerCadastro/NotesController.php");
+require_once "../controller/ControllerCadastro/NotesController.php";
+
 
 ?>
 <!DOCTYPE html>
@@ -10,17 +11,20 @@ require_once("../controller/ControllerCadastro/NotesController.php");
     <title>Criar</title>
 </head>
 <body>
-<form method="post" action="../controller/ControllerCadastro/NotesController.php">
-    <label>
+
+<form method="post" action="">
+    <label>Titulo
         <input type="text" name="title"/>
     </label><br>
-    <label>
+    <label> Descrição
         <input type="text" name="description"/>
     </label><br>
     <div class="form-group">
-        <button type="submit" class="btn btn-success" id="cadastrar">Cadastrar</button>
+        <button type="submit" class="btn btn-success" id="cadastrar">Adicionar
+        </button>
     </div>
 </form>
+
 
 </body>
 </html>

@@ -1,17 +1,37 @@
 <?php
 
-namespace todoList\controller\ControllerCadastro;
-
-$notesRepository = include '../../model/NotesRepository.php';
 
 $title = $_POST["title"];
 $description = $_POST["description"];
 $data = date("d-m H:i");
 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Criar</title>
+</head>
+<body>
 
-$criarNota = $notesRepository->Inserir($title, $description, $data);
+<form method="post" action="../../model/NotesRepository.php">
+    <input type="hidden" name="title" value="<?php
+    echo $title ?>"/>
+    <input type="hidden" name="description" value="<?php
+    echo $description ?>"/>
+    <input type="hidden" name="date" value="<?php
+    echo $data ?>"/>
 
-var_dump($criarNota);
+</form>
+</body>
+</html>
+<?php
+
+
+
+
+
+
 
 
 
