@@ -11,29 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CriarNota.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/to-do list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to-do list.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/NotesRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/database/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/CriarNota.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +72,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -164,6 +145,8 @@
       <workItem from="1606334277518" duration="5386000" />
       <workItem from="1606412820231" duration="9378000" />
       <workItem from="1606438265151" duration="77000" />
+      <workItem from="1606495058812" duration="1781000" />
+      <workItem from="1606499507413" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -303,10 +286,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605909686255" />
-    <state x="151" y="220" key="SettingsEditor" timestamp="1606241434270">
+    <state x="585" y="216" key="SettingsEditor" timestamp="1606500011734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="151" y="220" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606241434270" />
+    <state x="585" y="216" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606500011734" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1605902782611">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

@@ -2,8 +2,7 @@
 
 require_once "./connection.php";
 $list = [];
-$select = $pdo->query("SELECT * FROM todo")
-
+$select = $pdo->query("SELECT * FROM todo");
 
 ?>
 <!DOCTYPE html>
@@ -17,27 +16,27 @@ $select = $pdo->query("SELECT * FROM todo")
 </head>
 
 <body>
-    <button type="button" class="btn btn-success" style="float: right; margin-right: 20px"><a style="text-decoration: none; color: #000" href="/CriarNota.php">Adicionar Tarefa</a>
+    <button type="button" class="btn btn-success" style="float: right; margin: 2ch 2ch 0 0 "><a style="text-decoration: none; color: #000" href="/CriarNota.php">Adicionar Tarefa</a></button>
 
-        <div id="Container">
-            <h1 class="tituloPrincipal">to-do list</h1>
-            <?php foreach ($select as $todo) { ?>
-                <div class="Conteudo">
-                    <label>
-                        <input type="checkbox" name="feito">
-                    </label>
-                    <h2 class="titulo"><?php
-                                        echo $todo["title"] ?></h2>
-                    <p class="descricao">Descrição: <?php
-                                                    echo $todo["description"] ?> </p>
-                    <p class="data">Data: <?php
-                                            echo $todo["date"] ?></p>
-                </div>
-            <?php  }  ?>
+    <div id="Container">
+        <h1 class="tituloPrincipal">to-do list</h1>
+        <?php foreach ($select as $todo) { ?>
+            <div class="Conteudo">
+                <label>
+                    <input type="checkbox" name="feito">
+                </label>
+                <h2 class="titulo"><?php
+                                    echo $todo["title"] ?></h2>
+                <p class="descricao">Descrição: <?php
+                                                echo $todo["description"] ?> </p>
+                <p class="data">Data: <?php
+                                        echo $todo["date"] ?></p>
+            </div>
+        <?php  }  ?>
 
 
-        </div>
-    </button>
+    </div>
+
 
 
 </body>
