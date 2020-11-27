@@ -11,14 +11,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model/NotesRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CriarNota.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/to-do list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to-do list.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/database/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/database/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/CriarNota.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/CriarNota.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/NotesRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/database/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/CriarNota.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,20 +100,20 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/view" />
       <recent name="$PROJECT_DIR$/controller/Criar" />
-      <recent name="$PROJECT_DIR$/controller" />
-      <recent name="$PROJECT_DIR$/model" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.NotesController.php">
-    <configuration name="CriarNota.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/page/CriarNota.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="PHP Script.NotesRepository.php">
+    <configuration name="NotesController.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/NotesController.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/to-do_list/src/page/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="CriarNota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/view/CriarNota.php">
+    <configuration name="CriarNota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CriarNota.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4" />
@@ -106,13 +121,13 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="NotesController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controller/ControllerCadastro/NotesController.php">
+    <configuration name="NotesController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/NotesController.php">
       <method v="2" />
     </configuration>
-    <configuration name="NotesRepository.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/NotesRepository.php">
+    <configuration name="NotesRepository.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/NotesRepository.php">
       <method v="2" />
     </configuration>
-    <configuration name="connection.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/model/database/connection.php">
+    <configuration name="connection.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/connection.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4" />
@@ -122,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.NotesController.php" />
         <item itemvalue="PHP Script.NotesRepository.php" />
+        <item itemvalue="JavaScript Debug.NotesController.php" />
+        <item itemvalue="PHP Script.NotesController.php" />
         <item itemvalue="PHP Script.connection.php" />
         <item itemvalue="PHP Script.CriarNota.php" />
-        <item itemvalue="JavaScript Debug.CriarNota.php" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +159,11 @@
       <workItem from="1606148761739" duration="4000" />
       <workItem from="1606151001691" duration="58000" />
       <workItem from="1606151079993" duration="13997000" />
-      <workItem from="1606239085224" duration="9349000" />
+      <workItem from="1606239085224" duration="21860000" />
+      <workItem from="1606312082528" duration="2027000" />
+      <workItem from="1606334277518" duration="5386000" />
+      <workItem from="1606412820231" duration="9378000" />
+      <workItem from="1606438265151" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -167,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606167764865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":bug: arrumando bug do formulário">
+      <created>1606252541454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606252541454</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +215,8 @@
     <MESSAGE value=":seedling: upadte em arquivo de conexão" />
     <MESSAGE value="idea" />
     <MESSAGE value=":seedling: update no form" />
-    <option name="LAST_COMMIT_MESSAGE" value=":seedling: update no form" />
+    <MESSAGE value=":bug: arrumando bug do formulário" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bug: arrumando bug do formulário" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters" timestamp="1605892871450">
@@ -204,14 +231,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1134" y="378" width="604" height="350" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1606157583387" />
-    <state x="605" y="177" width="700" height="752" key="#PHP" timestamp="1605900590269">
+    <state x="605" y="177" width="700" height="752" key="#PHP" timestamp="1606258632401">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="605" y="177" width="700" height="752" key="#PHP/0.27.1920.1053@0.27.1920.1053" timestamp="1605900590269" />
-    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects" timestamp="1605998311955">
+    <state x="605" y="177" width="700" height="752" key="#PHP/0.27.1920.1053@0.27.1920.1053" timestamp="1606258632401" />
+    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects" timestamp="1606426795092">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1605998311955" />
+    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1606426795092" />
     <state x="1196" y="337" width="467" height="432" key="#Web_Browsers" timestamp="1605897066358">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -228,38 +255,42 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606012371602" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1606246050523">
+    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606426793871">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606246050523" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1606246050522">
+    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606426793871" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1606428027914">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606246050522" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1606246050521">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027914" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1606428027914">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606246050521" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1606246050522">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027914" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1606428027913">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606246050522" />
-    <state width="914" height="343" key="GridCell.Tab.1.bottom" timestamp="1606020015443">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027913" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1606428027914">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="343" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
-    <state width="914" height="343" key="GridCell.Tab.1.center" timestamp="1606020015443">
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027914" />
+    <state width="1874" height="260" key="GridCell.Tab.1.bottom" timestamp="1606266621819">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="343" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
-    <state width="914" height="343" key="GridCell.Tab.1.left" timestamp="1606020015443">
+    <state width="1874" height="260" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
+    <state width="1874" height="260" key="GridCell.Tab.1.center" timestamp="1606266621819">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="343" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
-    <state width="914" height="343" key="GridCell.Tab.1.right" timestamp="1606020015443">
+    <state width="1874" height="260" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
+    <state width="1874" height="260" key="GridCell.Tab.1.left" timestamp="1606266621819">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="343" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606020015443" />
+    <state width="1874" height="260" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
+    <state width="1874" height="260" key="GridCell.Tab.1.right" timestamp="1606266621819">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="260" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1606156802291">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -280,10 +311,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1605902782611" />
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606167779459">
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606252547157">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606167779459" />
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606252547157" />
     <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605989043117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

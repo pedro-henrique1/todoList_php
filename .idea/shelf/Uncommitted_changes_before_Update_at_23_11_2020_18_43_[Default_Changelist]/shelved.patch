@@ -1,0 +1,30 @@
+Index: model/NotesRepository.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- model/NotesRepository.php	(date 1606167732602)
++++ model/NotesRepository.php	(date 1606167732602)
+@@ -0,0 +1,22 @@
++<?php
++
++
++include '../controller/ControllerCadastro/NotesController.php';
++
++public
++function Inserir($title, $description, $data)
++{
++    $PDO = include '../model/database/connection.php';
++
++    $sql = "INSERT INTO todo VALUES (:title, :description, :date )";
++    $insertPrepare = $PDO->prepare($sql);
++    return $insertPrepare->execute(
++        [
++            ':title' => $title,
++            ':description' => $description,
++            ':date' => $data,
++        ]
++    );
++}
++
++
