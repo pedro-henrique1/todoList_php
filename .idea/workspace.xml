@@ -11,10 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/to-do list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to-do list.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/NotesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="26e79966-f809-450e-a215-da88ed53a5ae" name="localhost" port="5500" />
@@ -57,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -64,6 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -146,7 +155,10 @@
       <workItem from="1606412820231" duration="9378000" />
       <workItem from="1606438265151" duration="77000" />
       <workItem from="1606495058812" duration="1781000" />
-      <workItem from="1606499507413" duration="1750000" />
+      <workItem from="1606499507413" duration="3984000" />
+      <workItem from="1606503956383" duration="3440000" />
+      <workItem from="1606586695356" duration="7453000" />
+      <workItem from="1606662387570" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -176,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606252541454</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":bug: arrumando bug do mysql_pdo">
+      <created>1606501625667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606501625668</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +218,8 @@
     <MESSAGE value="idea" />
     <MESSAGE value=":seedling: update no form" />
     <MESSAGE value=":bug: arrumando bug do formulário" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: arrumando bug do formulário" />
+    <MESSAGE value=":bug: arrumando bug do mysql_pdo" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bug: arrumando bug do mysql_pdo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters" timestamp="1605892871450">
@@ -218,10 +238,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="605" y="177" width="700" height="752" key="#PHP/0.27.1920.1053@0.27.1920.1053" timestamp="1606258632401" />
-    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects" timestamp="1606426795092">
+    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects" timestamp="1606664598617">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1606426795092" />
+    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1606664598617" />
     <state x="1196" y="337" width="467" height="432" key="#Web_Browsers" timestamp="1605897066358">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -238,26 +258,26 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606012371602" />
-    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606426793871">
+    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606664591938">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606426793871" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1606428027914">
+    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606664591938" />
+    <state width="1874" height="260" key="GridCell.Tab.0.bottom" timestamp="1606664835235">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027914" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1606428027914">
+    <state width="1874" height="260" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835235" />
+    <state width="1874" height="260" key="GridCell.Tab.0.center" timestamp="1606664835234">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027914" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1606428027913">
+    <state width="1874" height="260" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835234" />
+    <state width="1874" height="260" key="GridCell.Tab.0.left" timestamp="1606664835233">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027913" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1606428027914">
+    <state width="1874" height="260" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835233" />
+    <state width="1874" height="260" key="GridCell.Tab.0.right" timestamp="1606664835234">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606428027914" />
+    <state width="1874" height="260" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835234" />
     <state width="1874" height="260" key="GridCell.Tab.1.bottom" timestamp="1606266621819">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -282,10 +302,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1114" y="273" width="761" height="561" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606246012843" />
-    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog" timestamp="1605909686255">
+    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog" timestamp="1606664280689">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605909686255" />
+    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606664280689" />
     <state x="585" y="216" key="SettingsEditor" timestamp="1606500011734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -294,14 +314,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1605902782611" />
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606252547157">
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606501630802">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606252547157" />
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606501630802" />
     <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605989043117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605989043117" />
+    <state x="0" y="27" width="1910" height="1053" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1606664831070">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="27" width="1910" height="1053" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606664831070" />
     <state x="834" y="412" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1606168969477">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -314,9 +338,20 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1104" y="254" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606156561564" />
-    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606162393570">
+    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606504303192">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606162393570" />
+    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606504303192" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/EditRepository.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

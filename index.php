@@ -4,6 +4,7 @@ require_once "./connection.php";
 $list = [];
 $select = $pdo->query("SELECT * FROM todo");
 
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,14 +17,19 @@ $select = $pdo->query("SELECT * FROM todo");
 </head>
 
 <body>
-    <button type="button" class="btn btn-success" style="float: right; margin: 2ch 2ch 0 0 "><a style="text-decoration: none; color: #000" href="/CriarNota.php">Adicionar Tarefa</a></button>
+    <input class="form-control" type="text" name="pesquisa" placeholder="pesquisa por data">
+    <button type="button" class="btn btn-success" style="float: right; margin: 2ch 2ch 0 0;
+ "><a style="text-decoration: none; color: #000" href="/CriarNota.php">Adicionar Tarefa</a></button>
+    <h1 class="tituloPrincipal">to-do list</h1>
 
     <div id="Container">
-        <h1 class="tituloPrincipal">to-do list</h1>
-        <?php foreach ($select as $todo) { ?>
+        <?php
+        foreach ($select as $todo) { ?>
+            <a href="Editar.php?id=<?php echo $todo["id"]?>"> dfg </a>
+            <a href="Deletar.php?id=<?php echo $todo["id"]; ?>">guyigukgy</a>
             <div class="Conteudo">
                 <label>
-                    <input type="checkbox" name="feito">
+                    <input type="checkbox" name="feito" onclick="">
                 </label>
                 <h2 class="titulo"><?php
                                     echo $todo["title"] ?></h2>
@@ -31,14 +37,12 @@ $select = $pdo->query("SELECT * FROM todo");
                                                 echo $todo["description"] ?> </p>
                 <p class="data">Data: <?php
                                         echo $todo["date"] ?></p>
-            </div>
-        <?php  }  ?>
 
+            </div>
+        <?php
+        } ?>
 
     </div>
-
-
-
 </body>
 
 </html>

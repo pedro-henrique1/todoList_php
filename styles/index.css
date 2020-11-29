@@ -1,16 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   background-color: #30475e !important;
 }
+
 .tituloPrincipal {
   text-align: center;
   align-items: center;
+  margin-top: -2ch;
 }
 
-#container {
-  margin: 20px 20px;
+.form-control {
+  width: 11% !important;
+  margin: 2ch 0 0 5ch !important;
+}
+
+#Container {
+  margin: 8ch 20px 20px;
 }
 
 .Conteudo {
@@ -32,4 +40,14 @@ body {
 .data {
   color: #ffff;
   font-size: 15px;
+}
+
+.imagesEdit {
+  width: 4rem;
+  height: 26px;
+}
+
+.imagesDelet {
+  width: 6rem;
+  height: 26px;
 }
