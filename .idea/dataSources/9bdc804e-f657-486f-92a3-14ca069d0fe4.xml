@@ -14687,7 +14687,12 @@ VARIABLE_NAME</ColNames>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="3156" parent="511" name="PRIMARY">
+    <column id="3156" parent="511" name="status">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <key id="3157" parent="511" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

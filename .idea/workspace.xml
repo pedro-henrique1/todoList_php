@@ -11,15 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EditRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/to-do list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to-do list.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/NotesRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deletar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
@@ -35,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,7 +46,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="26e79966-f809-450e-a215-da88ed53a5ae" name="localhost" port="5500" />
@@ -55,6 +55,9 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProblemsViewState">
+    <option name="sortBySeverity" value="false" />
+  </component>
   <component name="ProjectId" id="1kYuTakfEK776yxSqNeK2d8jJRW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -85,15 +88,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/view" />
       <recent name="$PROJECT_DIR$/controller/Criar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.NotesRepository.php">
@@ -158,7 +161,8 @@
       <workItem from="1606499507413" duration="3984000" />
       <workItem from="1606503956383" duration="3440000" />
       <workItem from="1606586695356" duration="7453000" />
-      <workItem from="1606662387570" duration="2124000" />
+      <workItem from="1606662387570" duration="22573000" />
+      <workItem from="1606758133216" duration="9236000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -195,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606501625668</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=":hammer: terminado o crud">
+      <created>1606665422682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606665422682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,17 +230,18 @@
     <MESSAGE value=":seedling: update no form" />
     <MESSAGE value=":bug: arrumando bug do formulário" />
     <MESSAGE value=":bug: arrumando bug do mysql_pdo" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: arrumando bug do mysql_pdo" />
+    <MESSAGE value=":hammer: terminado o crud" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: terminado o crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters" timestamp="1605892871450">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters/0.27.1920.1053@0.27.1920.1053" timestamp="1605892871450" />
-    <state x="1069" y="235" width="732" height="637" key="#Inspections" timestamp="1606251648881">
+    <state x="1069" y="235" width="732" height="637" key="#Inspections" timestamp="1606674637413">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1069" y="235" width="732" height="637" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1606251648881" />
+    <state x="1069" y="235" width="732" height="637" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1606674637413" />
     <state x="1134" y="378" width="604" height="350" key="#Notifications" timestamp="1606157583387">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -254,30 +266,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="972" y="183" width="926" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605998275089" />
-    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606012371602">
+    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606676834225">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606012371602" />
+    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606676834225" />
     <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606664591938">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606664591938" />
-    <state width="1874" height="260" key="GridCell.Tab.0.bottom" timestamp="1606664835235">
+    <state width="914" height="260" key="GridCell.Tab.0.bottom" timestamp="1606696724200">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="260" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835235" />
-    <state width="1874" height="260" key="GridCell.Tab.0.center" timestamp="1606664835234">
+    <state width="914" height="260" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724200" />
+    <state width="914" height="260" key="GridCell.Tab.0.center" timestamp="1606696724199">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="260" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835234" />
-    <state width="1874" height="260" key="GridCell.Tab.0.left" timestamp="1606664835233">
+    <state width="914" height="260" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724199" />
+    <state width="914" height="260" key="GridCell.Tab.0.left" timestamp="1606696724199">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="260" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835233" />
-    <state width="1874" height="260" key="GridCell.Tab.0.right" timestamp="1606664835234">
+    <state width="914" height="260" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724199" />
+    <state width="914" height="260" key="GridCell.Tab.0.right" timestamp="1606696724200">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="260" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606664835234" />
+    <state width="914" height="260" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724200" />
     <state width="1874" height="260" key="GridCell.Tab.1.bottom" timestamp="1606266621819">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -314,10 +326,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1605902782611" />
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606501630802">
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606665426503">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606501630802" />
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606665426503" />
+    <state x="1199" y="371" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1606759432129">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1199" y="371" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606759432129" />
     <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605989043117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -334,10 +350,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1151" y="324" width="568" height="459" key="refactoring.ChangeSignatureDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605990219746" />
-    <state x="1104" y="254" width="672" height="677" key="run.anything.popup" timestamp="1606156561564">
+    <state x="1104" y="254" width="672" height="677" key="run.anything.popup" timestamp="1606678106103">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1104" y="254" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606156561564" />
+    <state x="1104" y="254" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606678106103" />
     <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606504303192">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
