@@ -11,16 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/to-do list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/to-do list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UpdateRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2020_18_43_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2020_18_43__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deletar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="26e79966-f809-450e-a215-da88ed53a5ae" name="localhost" port="5500" />
@@ -163,6 +160,8 @@
       <workItem from="1606586695356" duration="7453000" />
       <workItem from="1606662387570" duration="22573000" />
       <workItem from="1606758133216" duration="9236000" />
+      <workItem from="1606770218528" duration="2659000" />
+      <workItem from="1606846130767" duration="9121000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -238,10 +237,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters/0.27.1920.1053@0.27.1920.1053" timestamp="1605892871450" />
-    <state x="1069" y="235" width="732" height="637" key="#Inspections" timestamp="1606674637413">
+    <state x="1069" y="235" width="732" height="637" key="#Inspections" timestamp="1606846838528">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1069" y="235" width="732" height="637" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1606674637413" />
+    <state x="1069" y="235" width="732" height="637" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1606846838528" />
     <state x="1134" y="378" width="604" height="350" key="#Notifications" timestamp="1606157583387">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -318,6 +317,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606664280689" />
+    <state x="1184" y="237" width="491" height="633" key="RollbackChangesDialog" timestamp="1606848201842">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1184" y="237" width="491" height="633" key="RollbackChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606848201842" />
     <state x="585" y="216" key="SettingsEditor" timestamp="1606500011734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

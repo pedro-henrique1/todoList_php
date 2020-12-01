@@ -6,7 +6,6 @@
     <file url="file://$PROJECT_DIR$/Editar.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/NotesRepository.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/index.php" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/update.php" dialect="GenericSQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
