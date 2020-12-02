@@ -59,9 +59,8 @@ $select = $pdo->query("SELECT * FROM todo");
     function Check() {
         document.querySelector('input[name="status"]:checked').onclick = function () {
             let value  = this.value;
-            // let html = "<form method='post' action='UpdateRepository.php'>" +
-            //     "<input type='hidden'  name='status' value="[value]"></form>"
-            console.log(value);
+            window.location = "UpdateRepository.php?id="+ value
+            console.log(value)
         }
     }
 

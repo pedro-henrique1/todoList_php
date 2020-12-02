@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UpdateRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2020_18_43_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2020_18_43__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdateRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -161,7 +156,9 @@
       <workItem from="1606662387570" duration="22573000" />
       <workItem from="1606758133216" duration="9236000" />
       <workItem from="1606770218528" duration="2659000" />
-      <workItem from="1606846130767" duration="9121000" />
+      <workItem from="1606846130767" duration="12359000" />
+      <workItem from="1606930449701" duration="1817000" />
+      <workItem from="1606933328349" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -205,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606665422682</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":hammer: pegando valor do checkbox">
+      <created>1606858958004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606858958004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +234,8 @@
     <MESSAGE value=":bug: arrumando bug do formulário" />
     <MESSAGE value=":bug: arrumando bug do mysql_pdo" />
     <MESSAGE value=":hammer: terminado o crud" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: terminado o crud" />
+    <MESSAGE value=":hammer: pegando valor do checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: pegando valor do checkbox" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters" timestamp="1605892871450">
@@ -329,10 +334,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1605902782611" />
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606665426503">
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606858974072">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606665426503" />
+    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606858974072" />
     <state x="1199" y="371" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1606759432129">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -361,16 +366,5 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606504303192" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/EditRepository.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

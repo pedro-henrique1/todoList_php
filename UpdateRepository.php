@@ -3,7 +3,8 @@
 require_once "./connection.php";
 
 
-$id = $_POST["status"];
+$id = $_GET["id"];
+
 $status = 1;
 
 if ($id) {
@@ -11,6 +12,8 @@ if ($id) {
     $sql->bindParam(':id', $id);
     $sql->bindParam(':status', $status);
     $sql->execute();
+    header("Location: /index.php "  );
+    exit(302);
 } else {
     header("Location: /index.php");
     exit();
