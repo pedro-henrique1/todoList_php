@@ -6,9 +6,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interfaces/TodoInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons8-todo-list-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TodoInsert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/UserMysql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EditRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpdateRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/NotesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +37,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -64,11 +79,13 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore&#10;PHP" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,26 +93,33 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/view" />
-      <recent name="$PROJECT_DIR$/controller/Criar" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Gulp" />
+    </option>
   </component>
   <component name="RunManager" selected="PHP Script.NotesRepository.php">
     <configuration name="NotesController.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/NotesController.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/to-do_list/src/page/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/src/page/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="CriarNota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CriarNota.php">
@@ -122,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.NotesRepository.php" />
-        <item itemvalue="JavaScript Debug.NotesController.php" />
-        <item itemvalue="PHP Script.NotesController.php" />
         <item itemvalue="PHP Script.connection.php" />
+        <item itemvalue="PHP Script.NotesRepository.php" />
+        <item itemvalue="PHP Script.NotesController.php" />
         <item itemvalue="PHP Script.CriarNota.php" />
+        <item itemvalue="JavaScript Debug.NotesController.php" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +182,10 @@
       <workItem from="1606770218528" duration="2659000" />
       <workItem from="1606846130767" duration="12359000" />
       <workItem from="1606930449701" duration="1817000" />
-      <workItem from="1606933328349" duration="1570000" />
+      <workItem from="1606933328349" duration="15782000" />
+      <workItem from="1607015425730" duration="11659000" />
+      <workItem from="1607030160338" duration="3947000" />
+      <workItem from="1607102842931" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -209,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606858958004</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":hammer: terminado o update de lista terminada">
+      <created>1606935259244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606935259244</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,136 +269,7 @@
     <MESSAGE value=":bug: arrumando bug do mysql_pdo" />
     <MESSAGE value=":hammer: terminado o crud" />
     <MESSAGE value=":hammer: pegando valor do checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: pegando valor do checkbox" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters" timestamp="1605892871450">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1018" y="237" width="824" height="684" key="#CLI_Interpreters/0.27.1920.1053@0.27.1920.1053" timestamp="1605892871450" />
-    <state x="1069" y="235" width="732" height="637" key="#Inspections" timestamp="1606846838528">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1069" y="235" width="732" height="637" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1606846838528" />
-    <state x="1134" y="378" width="604" height="350" key="#Notifications" timestamp="1606157583387">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1134" y="378" width="604" height="350" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1606157583387" />
-    <state x="605" y="177" width="700" height="752" key="#PHP" timestamp="1606258632401">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="605" y="177" width="700" height="752" key="#PHP/0.27.1920.1053@0.27.1920.1053" timestamp="1606258632401" />
-    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects" timestamp="1606664598617">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="513" y="406" width="1397" height="294" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1606664598617" />
-    <state x="1196" y="337" width="467" height="432" key="#Web_Browsers" timestamp="1605897066358">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1196" y="337" width="467" height="432" key="#Web_Browsers/0.27.1920.1053@0.27.1920.1053" timestamp="1605897066358" />
-    <state x="1035" y="215" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606156748223">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1035" y="215" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606156748223" />
-    <state x="972" y="183" width="926" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605998275089">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="972" y="183" width="926" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605998275089" />
-    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606676834225">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1173" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606676834225" />
-    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606664591938">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="994" y="311" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606664591938" />
-    <state width="914" height="260" key="GridCell.Tab.0.bottom" timestamp="1606696724200">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="914" height="260" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724200" />
-    <state width="914" height="260" key="GridCell.Tab.0.center" timestamp="1606696724199">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="914" height="260" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724199" />
-    <state width="914" height="260" key="GridCell.Tab.0.left" timestamp="1606696724199">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="914" height="260" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724199" />
-    <state width="914" height="260" key="GridCell.Tab.0.right" timestamp="1606696724200">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="914" height="260" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606696724200" />
-    <state width="1874" height="260" key="GridCell.Tab.1.bottom" timestamp="1606266621819">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="260" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
-    <state width="1874" height="260" key="GridCell.Tab.1.center" timestamp="1606266621819">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="260" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
-    <state width="1874" height="260" key="GridCell.Tab.1.left" timestamp="1606266621819">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="260" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
-    <state width="1874" height="260" key="GridCell.Tab.1.right" timestamp="1606266621819">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="260" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606266621819" />
-    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1606156802291">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="263" height="500" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1606156802291" />
-    <state x="1114" y="273" width="761" height="561" key="NewPhpClassDialog" timestamp="1606246012843">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1114" y="273" width="761" height="561" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606246012843" />
-    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog" timestamp="1606664280689">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1235" y="479" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606664280689" />
-    <state x="1184" y="237" width="491" height="633" key="RollbackChangesDialog" timestamp="1606848201842">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1184" y="237" width="491" height="633" key="RollbackChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606848201842" />
-    <state x="585" y="216" key="SettingsEditor" timestamp="1606500011734">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="585" y="216" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606500011734" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1605902782611">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1605902782611" />
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606858974072">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="555" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1606858974072" />
-    <state x="1199" y="371" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1606759432129">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1199" y="371" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606759432129" />
-    <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605989043117">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="741" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605989043117" />
-    <state x="0" y="27" width="1910" height="1053" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1606664831070">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="0" y="27" width="1910" height="1053" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606664831070" />
-    <state x="834" y="412" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1606168969477">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="834" y="412" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606168969477" />
-    <state x="1151" y="324" width="568" height="459" key="refactoring.ChangeSignatureDialog" timestamp="1605990219746">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1151" y="324" width="568" height="459" key="refactoring.ChangeSignatureDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605990219746" />
-    <state x="1104" y="254" width="672" height="677" key="run.anything.popup" timestamp="1606678106103">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1104" y="254" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606678106103" />
-    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606504303192">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1104" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606504303192" />
+    <MESSAGE value=":hammer: terminado o update de lista terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: terminado o update de lista terminada" />
   </component>
 </project>

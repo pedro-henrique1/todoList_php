@@ -1,22 +1,27 @@
 <?php
 
 require_once "connection.php";
+require_once "models/TodoInsert.php";
+require_once "models/UserMysql.php";
 
-$id = $_POST["id"];
-$title = $_POST["title"];
-$description = $_POST["description"];
+$todo = new UserMysql($pdo);
 
+
+$id = filter_input(INPUT_POST, 'id');
+$title = filter_input(INPUT_POST, 'title');
+$description = filter_input(INPUT_POST, 'description');
 
 if ($title && $description && $id) {
-    $sql = $pdo->prepare("UPDATE todo SET title = :title, description = :description WHERE id = :id");
-    $sql->bindParam(':title', $title);
-    $sql->bindParam(':description', $description);
-    $sql->bindParam(':id', $id);
-    $sql->execute();
+    $result = $todo->findById($id);
+    $result->setTitle($title);
+    $result->setDescription($description);
+
+    $todo->update($result);
+
     header("Location: index.php");
-    exit;
+    exit();
 } else {
-    header("Location: CriarNota.php");
+    header("Location: Editar.php");
     exit();
 }
 
