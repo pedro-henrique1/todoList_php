@@ -1,5 +1,7 @@
 <?php
 
+use JetBrains\PhpStorm\NoReturn;
+
 require_once "TodoInsert.php";
 require_once "./Interfaces/TodoInterface.php";
 
@@ -65,15 +67,18 @@ class UserMysql implements TodoInterface
     public function update(TodoInsert $u): bool
     {
         $sql = $this->pdo->prepare("UPDATE todo SET title = :title, description = :description WHERE id = :id");
+        $sql->bindValue(':id', $u->getId());
         $sql->bindValue(':title', $u->getTitle());
         $sql->bindValue(':description', $u->getDescription());
         $sql->execute();
         return true;
     }
 
-    public function delete($id)
+    #[NoReturn] public function delete($id)
     {
-        // TODO: Implement delete() method.
+        $sql = $this->pdo->prepare("DELETE FROM todo WHERE id = :id;");
+        $sql->bindParam(":id", $id);
+        $sql->execute();
     }
 }
 

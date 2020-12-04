@@ -6,19 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/TodoInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons8-todo-list-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/TodoInsert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/UserMysql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bdc804e-f657-486f-92a3-14ca069d0fe4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deletar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EditRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/NotesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/UserMysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserMysql.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="26e79966-f809-450e-a215-da88ed53a5ae" name="localhost" port="5500" />
@@ -186,6 +180,7 @@
       <workItem from="1607015425730" duration="11659000" />
       <workItem from="1607030160338" duration="3947000" />
       <workItem from="1607102842931" duration="611000" />
+      <workItem from="1607103484553" duration="5616000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -243,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606935259244</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add .env e gitignore">
+      <created>1607103528902</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607103528902</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update no projeto">
+      <created>1607103577457</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607103577457</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +279,8 @@
     <MESSAGE value=":hammer: terminado o crud" />
     <MESSAGE value=":hammer: pegando valor do checkbox" />
     <MESSAGE value=":hammer: terminado o update de lista terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: terminado o update de lista terminada" />
+    <MESSAGE value="add .env e gitignore" />
+    <MESSAGE value="update no projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="update no projeto" />
   </component>
 </project>

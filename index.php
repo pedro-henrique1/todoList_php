@@ -47,12 +47,12 @@ $list = $todo->findAll();
                 <input type="checkbox" class="checkbox" name="status" value="<?php
                 echo $todo->getId() ?>">
             </label>
-            <h2 class="titulo"><?php echo $todo->getTitle(); ?></h2>
+            <h2 class="titulo"><?php
+                echo $todo->getTitle(); ?></h2>
             <p class="descricao">Descrição: <?php
                 echo $todo->getDescription(); ?> </p>
             <p class="data">Data: <?php
                 echo $todo->getDate(); ?></p>
-
         </div>
         <?php
     } ?>
