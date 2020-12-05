@@ -37,6 +37,7 @@ class UserMysql implements TodoInterface
                 $u->setTitle($item["title"]);
                 $u->setDescription($item["description"]);
                 $u->setDate($item["date"]);
+                $u->setStatus($item["status"]);
 
                 $array[] = $u;
             }

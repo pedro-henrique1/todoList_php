@@ -6,12 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Deletar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/TodoInsert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/TodoInsert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/UserMysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserMysql.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore&#10;PHP" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="js.last.introduce.type" value="LET" />
@@ -109,22 +108,24 @@
       <command value="Gulp" />
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.NotesRepository.php">
-    <configuration name="NotesController.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/NotesController.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="TodoInterfaceSpec.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/TodoInterfaceSpec.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/to-do_list/src/page/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="CriarNota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CriarNota.php">
+    <configuration name="TodoInterfaceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4" />
         </PhpTestInterpreterSettings>
       </CommandLine>
+      <TestRunner class="TodoInterfaceTest" file="$PROJECT_DIR$/TodoInterfaceTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="NotesController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/NotesController.php">
+    <configuration name="UserMysqlTest.testDelete" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="UserMysqlTest" file="$PROJECT_DIR$/UserMysqlTest.php" method="testDelete" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="NotesRepository.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/NotesRepository.php">
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TodoInterfaceTest" />
+        <item itemvalue="JavaScript Debug.TodoInterfaceSpec.php" />
+        <item itemvalue="PHPUnit.UserMysqlTest.testDelete" />
         <item itemvalue="PHP Script.connection.php" />
         <item itemvalue="PHP Script.NotesRepository.php" />
-        <item itemvalue="PHP Script.NotesController.php" />
-        <item itemvalue="PHP Script.CriarNota.php" />
-        <item itemvalue="JavaScript Debug.NotesController.php" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,8 @@
       <workItem from="1607015425730" duration="11659000" />
       <workItem from="1607030160338" duration="3947000" />
       <workItem from="1607102842931" duration="611000" />
-      <workItem from="1607103484553" duration="5616000" />
+      <workItem from="1607103484553" duration="19898000" />
+      <workItem from="1607180314904" duration="8534000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607103577457</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finalizando CRUD">
+      <created>1607109719791</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607109719791</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +290,10 @@
     <MESSAGE value=":hammer: terminado o update de lista terminada" />
     <MESSAGE value="add .env e gitignore" />
     <MESSAGE value="update no projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="update no projeto" />
+    <MESSAGE value="finalizando CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizando CRUD" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/to_do_list@TodoInterfaceTest.xml" NAME="TodoInterfaceTest Coverage Results" MODIFIED="1607112815019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

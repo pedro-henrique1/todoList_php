@@ -1,8 +1,14 @@
+
 <?php
 
 require_once "./connection.php";
 require_once "models/UserMysql.php";
 require_once "models/TodoInsert.php";
+
+?>
+
+
+<?php
 
 $todo = new UserMysql($pdo);
 

@@ -3,11 +3,12 @@
 
 class TodoInsert
 {
+
     private int $id;
     private string $title;
     private string $description;
+    private $status;
     private $date;
-
 
     public function getId(): int
     {
@@ -32,7 +33,7 @@ class TodoInsert
     }
 
 
-    public function getDescription()
+    public function getDescription(): string
     {
         return $this->description;
     }
@@ -53,6 +54,18 @@ class TodoInsert
     public function setDate($date): void
     {
         $this->date = $date;
+    }
+
+
+    public function getStatus(): int
+    {
+        return $this->status;
+    }
+
+
+    public function setStatus(mixed $status): void
+    {
+        $this->status = $status;
     }
 
 

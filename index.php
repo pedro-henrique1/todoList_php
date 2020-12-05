@@ -7,7 +7,9 @@ require_once "models/TodoInsert.php";
 $todo = new UserMysql($pdo);
 $list = $todo->findAll();
 
+
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -23,7 +25,7 @@ $list = $todo->findAll();
 <body>
 
 <a href="/CriarNota.php" style="text-decoration: none; color: #000">
-    <button type="button" class="btn btn-warning" style="float: right; margin: 1ch 2ch 0 0;  z-index: 999;">Adicionar
+    <button type="button" class="btn btn-warning" style="  float: right;  margin: 1ch 2ch 0 0;  z-index: 999;">Adicionar
         Tarefa
     </button>
 </a>
@@ -33,40 +35,48 @@ $list = $todo->findAll();
 
 <div id="Container">
     <?php
-    foreach ($list as $todo) { ?>
-        <a href='Editar.php?id=<?php
-        echo $todo->getId(); ?>'>
-            <img class="imagesEdit" src="images/edit-solid.svg" alt="icone editar"></a>
+    foreach ($list
 
-        <a href='Deletar.php?id=<?php
-        echo $todo->getId(); ?>'>
-            <img class="imagesDelete" src="images/trash-solid.svg" alt="icone excluir"></a>
+    as $todo) { ?>
+    <a href='Editar.php?id=<?php
+    echo $todo->getId(); ?>'>
+        <img class="imagesEdit" src="images/edit-solid.svg" alt="icone editar"></a>
 
-        <div class="Conteudo">
-            <label>
-                <input type="checkbox" class="checkbox" name="status" value="<?php
-                echo $todo->getId() ?>">
-            </label>
-            <h2 class="titulo"><?php
-                echo $todo->getTitle(); ?></h2>
-            <p class="descricao">Descrição: <?php
-                echo $todo->getDescription(); ?> </p>
-            <p class="data">Data: <?php
-                echo $todo->getDate(); ?></p>
-        </div>
-        <?php
-    } ?>
+    <a href='Deletar.php?id=<?php
+    echo $todo->getId(); ?>'>
+        <img class="imagesDelete" style="pointer-events: none" src="images/trash-solid.svg" alt="icone excluir"></a>
+
+    <?php
+    if ($todo->getStatus()) {
+        echo "<div class='Conteudo' style='opacity:0.4'";
+    } else {
+        echo "<div class='Conteudo'";
+    }
+    ?>
+
+    <label>
+        <input type="checkbox" class="checkbox" onclick="Check()" name="status" value="<?php
+        echo $todo->getId() ?>">
+    </label>
+    <h2 class="titulo"><?php
+        echo $todo->getTitle(); ?></h2>
+    <p class="descricao">Descrição: <?php
+        echo $todo->getDescription(); ?> </p>
+    <p class="data">Data: <?php
+        echo $todo->getDate(); ?></p>
+</div>
+<?php
+} ?>
 
 </div>
-<!--<script>-->
-<!--    function Check() {-->
-<!--        document.querySelector('input[name="status"]:checked').onclick = function () {-->
-<!--            let value = this.value;-->
-<!--            window.location = "UpdateRepository.php?id=" + value;-->
-<!--        }-->
-<!--    }-->
-<!---->
-<!--</script>-->
+<script>
+    function Check() {
+        document.querySelector('input[name="status"]:checked').onclick = function () {
+            let value = this.value;
+            window.location = "UpdateRepository.php?id=" + value;
+        }
+    }
+</script>
 </body>
 
 </html>
