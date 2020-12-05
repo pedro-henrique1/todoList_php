@@ -7,10 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deletar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Deletar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/TodoInsert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/TodoInsert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/UserMysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserMysql.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +178,7 @@
       <workItem from="1607030160338" duration="3947000" />
       <workItem from="1607102842931" duration="611000" />
       <workItem from="1607103484553" duration="19898000" />
-      <workItem from="1607180314904" duration="8534000" />
+      <workItem from="1607180314904" duration="10170000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -261,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607109719791</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=":hammer: update nas tarefas">
+      <created>1607196579115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607196579115</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +294,8 @@
     <MESSAGE value="add .env e gitignore" />
     <MESSAGE value="update no projeto" />
     <MESSAGE value="finalizando CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalizando CRUD" />
+    <MESSAGE value=":hammer: update nas tarefas" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: update nas tarefas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/to_do_list@TodoInterfaceTest.xml" NAME="TodoInterfaceTest Coverage Results" MODIFIED="1607112815019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
