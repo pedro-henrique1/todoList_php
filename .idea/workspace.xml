@@ -185,7 +185,7 @@
       <workItem from="1607102842931" duration="611000" />
       <workItem from="1607103484553" duration="19898000" />
       <workItem from="1607180314904" duration="16650000" />
-      <workItem from="1607270999389" duration="6234000" />
+      <workItem from="1607270999389" duration="6857000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607273079837</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix">
+      <created>1607278510889</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607278510889</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

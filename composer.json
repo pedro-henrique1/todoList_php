@@ -1,0 +1,13 @@
+{
+    "name": "pedro/to-do_list",
+    "authors": [
+        {
+            "name": "pedro",
+            "email": "ph8464803@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "plasticbrain/php-flash-messages": "^1.0"
+    }
+}
