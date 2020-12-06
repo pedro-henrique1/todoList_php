@@ -29,6 +29,10 @@ $list = $todo->findAll();
         Tarefa
     </button>
 </a>
+<a href="/Update.php" style="text-decoration: none; color: #000">
+    <button type="button" class="btn btn-warning" style="  float: right;  margin: 1ch 2ch 0 0;  z-index: 999;">Desmarcar
+    </button>
+</a>
 
 
 <h1 class="tituloPrincipal">to-do list</h1>

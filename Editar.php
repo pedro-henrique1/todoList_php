@@ -1,9 +1,14 @@
 <?php
 
+require_once "vendor/autoload.php";
+use Plasticbrain\FlashMessages\FlashMessages;
+
 require_once "./connection.php";
 require_once "models/TodoInsert.php";
 require_once "models/UserMysql.php";
-require_once "flash/FlashMessage.php";
+//require_once "flash/MessageFlash.php";
+
+//$msg = new FlashMessages();
 
 $todo = new UserMysql($pdo);
 $id = filter_input(INPUT_GET, 'id');
@@ -12,8 +17,8 @@ $id = filter_input(INPUT_GET, 'id');
 if ($id) {
     $user = $todo->findById($id);
 } else {
-    $flashMessage = new FlashMessage();
-    $flashMessage->Mensagem();
+//    $msg->display();
+//    $msg->error("ocorreu um error");
     header("Location: CriarNota.php");
     exit();
 }
@@ -42,7 +47,8 @@ if ($id) {
          margin: 9ch 0 0 0; position: absolute; width: 98%" value="<?php
                 echo $user->getDescription(); ?>">
             </label>
-            <button style="margin: 14ch 0 0 1ch; width: 11%;" type="submit" class="btn btn-outline-danger">Salvar</button>
+            <button style="margin: 14ch 0 0 1ch; width: 11%;" type="submit" class="btn btn-outline-danger">Salvar
+            </button>
         </form>
 
     </div>
