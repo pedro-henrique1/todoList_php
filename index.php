@@ -35,9 +35,7 @@ $list = $todo->findAll();
 
 <div id="Container">
     <?php
-    foreach ($list
-
-    as $todo) { ?>
+    foreach ($list as $todo) { ?>
     <a href='Editar.php?id=<?php
     echo $todo->getId(); ?>'>
         <img class="imagesEdit" src="images/edit-solid.svg" alt="icone editar"></a>
@@ -68,7 +66,7 @@ $list = $todo->findAll();
 <?php
 } ?>
 
-</div>
+
 <script>
     function Check() {
         document.querySelector('input[name="status"]:checked').onclick = function () {

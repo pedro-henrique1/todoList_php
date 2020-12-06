@@ -3,6 +3,7 @@
 require_once "./connection.php";
 require_once "models/TodoInsert.php";
 require_once "models/UserMysql.php";
+require_once "flash/FlashMessage.php";
 
 $todo = new UserMysql($pdo);
 $id = filter_input(INPUT_GET, 'id');
@@ -11,6 +12,8 @@ $id = filter_input(INPUT_GET, 'id');
 if ($id) {
     $user = $todo->findById($id);
 } else {
+    $flashMessage = new FlashMessage();
+    $flashMessage->Mensagem();
     header("Location: CriarNota.php");
     exit();
 }
