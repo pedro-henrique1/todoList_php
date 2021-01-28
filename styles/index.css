@@ -13,21 +13,16 @@ body {
   color: #ffff;
 }
 
-.form-control {
-  width: 11% !important;
-  margin: 2ch 0 0 5ch !important;
-}
-
 #Container {
   margin: 8ch 20px 20px;
 }
 
 .Conteudo {
-  margin: 1ch 0 0 2ch;
+  margin: 2ch 0 0 2ch;
 }
 
 .titulo {
-  margin: -37px 0 0 2ch;
+  margin: -28px 0 0 2ch;
   color: #ffda77;
   font-size: 23px;
   font-family: "Ubuntu", sans-serif;
@@ -43,13 +38,10 @@ body {
   font-size: 15px;
 }
 
-.imagesEdit {
-  width: 4rem;
-  height: 26px;
+.container {
+  margin-top: 15em;
 }
 
-.imagesDelete {
-  width: 6rem;
-  height: 26px;
-  margin: 0 0 0 -3ch;
+.textArea {
+  height: 200px !important;
 }

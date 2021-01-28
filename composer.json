@@ -8,6 +8,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "plasticbrain/php-flash-messages": "^1.0"
+        "plasticbrain/php-flash-messages": "^1.0",
+        "twbs/bootstrap": "5.0.0-beta1"
     }
 }
