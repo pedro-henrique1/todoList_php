@@ -6,15 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/banco_de_dados.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +192,8 @@
       <workItem from="1611779075385" duration="205000" />
       <workItem from="1611779294262" duration="118000" />
       <workItem from="1611782701957" duration="1009000" />
-      <workItem from="1611860062874" duration="4482000" />
+      <workItem from="1611860062874" duration="5321000" />
+      <workItem from="1611940536357" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>

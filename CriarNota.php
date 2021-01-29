@@ -14,7 +14,7 @@
     <h1 class="text-center mt-5">Criar</h1>
   </header>
   <main>
-    <form action=" /NotesRepository.php" autocomplete="off" method="post" class="m-5">
+    <form action="./NotesRepository.php" autocomplete="off" method="post" class="m-5">
       <div class="form-group">
         <label for="Titulo">titulo</label>
         <input type="text" name="title" id="Titulo" class="form-control" placeholder="digite o titulo">
@@ -26,7 +26,7 @@
           placeholder="Digite sua descrição"></textarea>
       </div>
 
-      <button type="button" class="btn btn-success w-50">Criar</button>
+      <button type="submit" class="btn btn-success w-50">Criar</button>
     </form>
   </main>
 
