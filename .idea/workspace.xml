@@ -7,6 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="097b9769-a720-4655-b3e1-1006816f0457" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +196,10 @@
       <workItem from="1611782701957" duration="1009000" />
       <workItem from="1611860062874" duration="5321000" />
       <workItem from="1611940536357" duration="53000" />
+      <workItem from="1614707459206" duration="37000" />
+      <workItem from="1614707516413" duration="537000" />
+      <workItem from="1614708070068" duration="54000" />
+      <workItem from="1614708139326" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary=":seedling: upadte em arquivo de conexão">
       <created>1606167732960</created>
